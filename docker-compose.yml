@@ -1,0 +1,11 @@
+version: '3'
+services:
+   app:
+    build: webapp/.
+    container_name: php_web
+    ports:
+        - "9999:80"
+    restart: always
+
+
+
